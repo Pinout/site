@@ -1,0 +1,78 @@
+/* CSS */
+* {
+	font-family: 'Klee One', cursive;
+	background-color: #b5d678; /* vert clair */
+}
+
+a { 
+	text-decoration: none; 
+	color: black;
+	font-weight: bold;
+	margin-left: 2rem;
+	padding-top: 1rem;
+	font-size: 1.5rem;
+}
+h2 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+
+/********** HEADER **********/
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 4rem;
+	margin-right: 1rem;
+	align-items: center;
+	/*background-color: #ADED34; /* vert clair */
+}
+header a:hover {
+	/*border-top: 2px solid black;*/
+	color: grey;
+}
+header img {
+	width: 7rem;
+	background-color: transparent;
+	margin: 0;
+}
+header div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+/********** FOOTER **********/
+footer {
+	/*background-color: grey;*/
+}
+
+
+@media (max-width: 490px) {
+	header {
+		justify-content: center;
+	}
+	header div {
+		flex-direction: column;
+	}
+}
+
+
+/********** CONSEILS.HTML **********/
+.fruits-legumes {
+	display: flex;
+	flex-wrap: wrap;
+}
