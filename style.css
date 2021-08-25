@@ -16,11 +16,6 @@ h2 {
 	font-weight: bold;
 	text-decoration: underline;
 }
-img {
-	max-width: 100%;
-	height: auto;
-	margin: auto;
-}
 
 
 /********** HEADER **********/
@@ -39,7 +34,6 @@ header a:hover {
 header img {
 	width: 7rem;
 	background-color: transparent;
-	margin: 0;
 }
 header div {
 	display: flex;
@@ -72,7 +66,17 @@ footer {
 
 
 /********** CONSEILS.HTML **********/
+td {
+	font-weight: bold;
+}
 .fruits-legumes {
 	display: flex;
 	flex-wrap: wrap;
+}
+.fruits-legumes img {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 1rem;
+
 }
