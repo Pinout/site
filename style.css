@@ -63,7 +63,7 @@ footer {
 
 @media (max-width: 490px) {
 	header {
-		justify-content: center;
+		justify-content: flex-start;
 	}
 	header div {
 		flex-direction: column;
