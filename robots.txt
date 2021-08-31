@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+User-agent: *
+Sitemap: https://pinout.github.io/site/sitemap.xml
